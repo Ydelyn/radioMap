@@ -1,0 +1,67 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(61, 1, 1);
+}
+
+#author{
+    display: none;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(61, 1, 1);
+    color: #ffffff;
+}
+
+#all{
+    width: 95%;
+    background-image: url(../IMG/Micro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#cadre{
+    justify-content: center;
+    border-radius: 30px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    margin-top: 6px;
+    margin: 3px;
+    width: 90%;
+    border-radius: 30px;
+    border: rgb(61, 1, 1) 15px solid;
+}
+
+
+#nom{
+    text-align: center;
+    font: bold large oblique;
+    padding: 15px;    
+    border-radius: 30px;
+    width: 30%;
+    background-color: rgb(61, 1, 1);
+    color: #ffffff;
+    margin: auto;
+}

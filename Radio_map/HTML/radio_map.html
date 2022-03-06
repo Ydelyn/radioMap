@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <author id="author">Lorris COLINI</author>
+    <link rel="stylesheet" href="../CSS/radio_map.css">
+    <script src="../JS/radio_map.js" async></script>
+    <title>Radios FM</title>
+</head>
+<body>
+    <header>
+        <h1>Liste des radios</h1>
+    </header>
+    <div id="all">
+    <div id="cadre">
+        <map name="station">
+            <area shape="rect" coords="0,0,200,200" onclick="selectStation(this)" title="RTL">
+            <area shape="rect" coords="200,0,400,200" onclick="selectStation(this)" title="Europe 1">
+            <area shape="rect" coords="400,0,600,200" onclick="selectStation(this)" title="RMC">
+            <area shape="rect" coords="0,200,200,400" onclick="selectStation(this)" title="France Info">
+            <area shape="rect" coords="200,200,400,400" onclick="selectStation(this)" title="France Inter">
+            <area shape="rect" coords="400,200,600,400" onclick="selectStation(this)" title="Sud Radio">
+            <area shape="rect" coords="0,400,200,600" onclick="selectStation(this)" title="Nova">
+            <area shape="rect" coords="200,400,400,600" onclick="selectStation(this)" title="Oui FM">
+            <area shape="rect" coords="400,400,600,600" onclick="selectStation(this)" title="Fip">
+            <area shape="rect" coords="0,600,200,800" onclick="selectStation(this)" title="Nostalgie">
+            <area shape="rect" coords="200,600,400,800" onclick="selectStation(this)" title="RTL2">
+            <area shape="rect" coords="400,600,600,800" onclick="selectStation(this)" title="Chérie FM">
+            <area shape="rect" coords="0,800,200,1000" onclick="selectStation(this)" title="Rire et Chansons">
+        </map>
+        <img src="../IMG/ListeRadios.JPG" usemap="#station" alt="Liste des radios" >
+    </div>
+    <footer>
+        <div id="play" >
+            <audio id="lecteur" controls src="station"></audio>
+        </div>
+        <div id="nom">
+            <p id="affichage"></p>
+        </div>
+    </footer>
+    </div>  
+</body>
+</html>
